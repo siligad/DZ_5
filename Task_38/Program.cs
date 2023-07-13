@@ -33,13 +33,13 @@ double ArrayDiff(double[] array)
     double min=array[1];
     double diff;
     size = array.Length;
-    if (max<min)
+    /*if (max<min)
         {
             max=array[1];
             min=array[0];
         }
-
-    for (int i = 2; i < size; i++)
+    */
+    for (int i = 0; i < size; i++)
     {
          if (array[i]>max)
          {
