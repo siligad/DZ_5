@@ -31,7 +31,7 @@ int ArrayOdd(int[] array)
     int size;
     int count=0;
     size = array.Length;
-    for (int i = 0; i < size; i=i+2)
+    for (int i = 1; i < size; i=i+2)
     {
         count=count+array[i];
     }
