@@ -63,4 +63,5 @@ double diff;
 array=ArrayFill(array);
 ArrayShow(array);
 diff=ArrayDiff(array);
+diff=Math.Round(diff,2);
 Console.WriteLine($"Разница между максимальным и минимальным элементов массива: {diff}");
