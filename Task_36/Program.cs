@@ -10,7 +10,7 @@ int [] ArrayFill(int[] array)
     size = array.Length;
     for (int i = 0; i < size; i++)
     {
-         array[i] = new Random().Next(100);
+         array[i] = new Random().Next(-99,100);
     }
     return array;
 }
